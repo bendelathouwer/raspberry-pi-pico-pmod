@@ -1,4 +1,4 @@
-158024970706573
+162894468037044
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -104,6 +104,13 @@ esp8266mod
 0
 8
 8
+Module
+rpi pico
+
+
+0
+40
+40
 connectors_user
 2pin_screw
 
@@ -168,6 +175,13 @@ CONN DEV
 2
 2
 connectors_user
+GCT_USB4085-GF-A_REVA
+
+
+0
+20
+20
+connectors_user
 PMOD12
 
 
@@ -202,6 +216,13 @@ header 4 pin
 0
 0
 0
+connectors_user
+heaer2pin
+
+
+0
+2
+2
 connectors_user
 rj45
 
@@ -377,6 +398,13 @@ SOT223
 0
 4
 4
+halfgeleiders
+SSOP28-0.65-10.2X5.2MM
+<b>Shrink Small Outline Package</b> SSOP-28<p>http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf
+
+0
+28
+28
 halfgeleiders
 TO92
 
@@ -601,13 +629,6 @@ gevaar
 0
 0
 0
-vanalles
-haptic feedback
-
-
-0
-2
-2
 vanalles
 hapticfeedback
 
