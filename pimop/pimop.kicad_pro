@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
+          "drill": 1.02,
           "height": 1.524,
-          "width": 1.524
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,13 +45,19 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -105,14 +111,17 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "min_via_diameter": 0.39999999999999997
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -349,8 +358,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
@@ -378,6 +387,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -392,6 +402,12 @@
       "version": 0
     },
     "net_format_name": "",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -401,8 +417,28 @@
   },
   "sheets": [
     [
-      "602ae71a-d01b-465c-a934-9c1a845d6ffb",
+      "c55e9a19-4d60-4e14-980d-1e2953fe8be0",
       ""
+    ],
+    [
+      "c55e9a19-4d60-4e14-980d-1e2953fe8be0",
+      "voeding"
+    ],
+    [
+      "4d3896e7-58cc-447b-b777-50228c8de545",
+      "rpi pico"
+    ],
+    [
+      "eb79a3dd-10d9-4a0d-b2fc-810a7af4da71",
+      "level shifters"
+    ],
+    [
+      "60817b7c-3960-4c5e-a207-a3c43f75725d",
+      "ledpannel"
+    ],
+    [
+      "6c7f768c-9546-46d6-930e-db0845a82653",
+      "esp8266"
     ]
   ],
   "text_variables": {}

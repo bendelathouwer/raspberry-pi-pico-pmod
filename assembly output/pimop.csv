@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C7,C8,C6,C1,C9,C15,C16,C12,C5,C18,C10,C17";"0603";12;"10uF";;;
+2;"J9,J4,J2,J5,J3,J6,J1";"SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm";7;"solderjumper_2pin";;;
+3;"U2";"recom psu";1;"recom_psu";;;
+4;"U4,U5,U6,U7";"Texas_TXB0104PWR";4;"TXB0104";;;
+5;"SW1";"button";1;"button";;;
+6;"CON1";"2pin_screw_vast";1;"con_2pin";;;
+7;"H4,H1,H3,H2";"MountingHole_2.2mm_M2_Pad";4;"MountingHole";;;
+8;"C13,C2,C11,C14";"0603";4;"100nF";;;
+9;"FID2,FID1,FID3";"Fiducial_1.5mm_Mask4.5mm";3;"Fiducial";;;
+10;"CON3,CON2,CON4";"16 pin";3;"16pinheader";;;
+11;"U1";"2x8";1;"Led_Pannel";;;
+12;"mod1";"RPi_Pico_SMD_TH";1;"picorpi";;;
+13;"J7,J8";"SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels";2;"solder_jumper3";;;
+14;"D1";"DO214";1;"Diode";;;
+15;"U3";"esp8266mod";1;"esp8266_mod1";;;
